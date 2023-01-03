@@ -16,17 +16,28 @@ const Logo = styled.img`
   width: 50px;
 `
 
+const  BtnCabecalho = styled.a`
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px 20px;
+  margin: 0 10px;
+  font-weight: 600;
+  border: 2px solid white;
+  color: ${props => props.primary ? "white" : corPrimaria };
+  background: ${props => props.primary ? corPrimaria : "white"};
+`
+
 const Cabecalho = () => {
   return (
     <StyledHeader>
       <Logo className="imagem-logo" src={bank_logo} alt="Logo Smart Bank" />
       <div>
-        <a className="btn-secundario" href="https://google.com">
+        <BtnCabecalho href="https://google.com">
           Ajuda
-        </a>
-        <a className="btn-primario" href="https://google.com">
+        </BtnCabecalho>
+        <BtnCabecalho primary href="https://google.com">
           Sair
-        </a>
+        </BtnCabecalho>
       </div>
     </StyledHeader>
   );
