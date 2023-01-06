@@ -14,7 +14,7 @@ const Conteudo = styled.section`
   justify-content: space-between;
 `
 
-export default function() {
+export default () => {
   return (
     <Container className="container">
       <Titulo>Olá Fulano!</Titulo>
