@@ -34,6 +34,15 @@ export const Botao = styled.button`
   cursor: pointer;  
 `
 
+export const btnTema = styled.button`
+  position: absolute;
+  top: 4vh;
+  right: 20px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+`
+
 export const Saldo = styled.div`
   font-weight: 700;
   font-size: 32px;  
