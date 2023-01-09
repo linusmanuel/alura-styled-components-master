@@ -5,6 +5,10 @@ export const Icone = styled.img`
   width: 25px;
 `
 
+export const IconeTema = styled(Icone)`
+  filter: ${({ theme }) => theme.filter};
+`
+
 export const Box = styled.div`
   display: flex;
   flex-direction: column;
@@ -34,7 +38,7 @@ export const Botao = styled.button`
   cursor: pointer;  
 `
 
-export const btnTema = styled.button`
+export const BtnTema = styled.button`
   position: absolute;
   top: 4vh;
   right: 20px;
