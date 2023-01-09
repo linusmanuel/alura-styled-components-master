@@ -20,7 +20,7 @@ export const Box = styled.div`
   width: 48%;
 
   @media (max-width: 800px) {
-    width: 95%;
+    width: 100%;
     margin: 5px;
   }
 `
@@ -29,7 +29,7 @@ export const Botao = styled.button`
   margin: 15px auto 0px auto;
   display: block;
   border-radius: 20px;
-  background-color: #41d3be;
+  background-color: ${({theme}) => (theme.header)};
   border: none;
   color: white;
   font-weight: 600;

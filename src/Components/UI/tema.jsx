@@ -1,4 +1,6 @@
 import {
+  corPrimaria,
+  corPrimariaEscuro,
   fundoClaro,
   conteudoClaro,
   textoFundoClaro,
@@ -8,6 +10,7 @@ import {
 } from "./variaveis"
 
 export const temaClaro = {
+  header: corPrimaria,
   body: fundoClaro,
   inside: conteudoClaro,
   text: textoFundoClaro,
@@ -15,6 +18,7 @@ export const temaClaro = {
 }
 
 export const temaEscuro = {
+  header: corPrimariaEscuro,
   body: fundoEscuro,
   inside: conteudoEscuro,
   text: textoFundoEscuro,
